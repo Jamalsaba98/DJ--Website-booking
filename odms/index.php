@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>DJ Jamal Saba </title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!---->
+<?php include_once('includes/header.php');?>
+<!---->
+<script src="js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+        manualControls: '#slider3-pager',
+      });
+    });
+  </script> 
+<div class="content">
+	 <div class="container">  
+		  <div class="slider">
+			<!-- Slideshow 3 -->
+			<ul class="rslides" id="slider">
+			  <li><img src="images/7.jpg" alt="">
+				<div class="caption">
+					<h1>אירוע יום הולדת</h1>
+					
+				</div>
+			  </li>
+			  <li><img src="images/2.jpg" alt="">
+				<div class="caption">
+					<h1>אירוע לבוגרים של בית ספר</h1>	  
+					
+				</div>
+			  </li>	      
+			  <li><img src="images/10.jpg" alt="">
+				<div class="caption">
+					<h1>אירוע מיועד לילדים בבית ספר מכיתה א עד כיתה ט</h1>	  
+					
+				</div>
+			  </li>
+			  <li><img src="images/5.jpg" alt="">
+				<div class="caption">
+					<h1>אירוע מיוחד לחולים מוזיקה</h1>
+					
+				</div>
+			  </li>
+			  <li><img src="images/8.jpg" alt="">
+				<div class="caption">
+					<h1>אירוע למסיבה גדולה מיועד לקבוצה גדולה</h1>	  
+					
+				</div>
+			  </li>	      
+			  <li><img src="images/1.jpg" alt="">
+				<div class="caption">
+					<h1>אירוע למסיבה גדולה מיועד לקבוצה גדולה</h1>	  
+					
+				</div>
+			  </li>
+			  <li><img src="images/13.jpg" alt="">
+				<div class="caption">
+					<h1>יום הולדת</h1>	  
+					
+				</div>
+			  </li>	      
+			  <li><img src="images/3.jpg" alt="">
+				<div class="caption">
+					<h1>אירוע בוגרי תואר הנדסת תוכנה</h1>	  
+					
+			  </li>
+			</ul>
+			<!-- Slideshow 3 Pager --></br></br>
+			<ul id="slider3-pager">
+			  <li><a href="#"><img src="images/77.jpg" alt=""></a></li>
+			  <li><a href="#"><img src="images/22.jpg" alt=""></a></li>
+			  <li><a href="#"><img src="images/1010.jpg" alt=""></a></li>
+			   <li><a href="#"><img src="images/55.jpg" alt=""></a></li>
+			  <li><a href="#"><img src="images/88.jpg" alt=""></a></li>
+			  <li><a href="#"><img src="images/11.jpg" alt=""></a></li>
+			  <li><a href="#"><img src="images/1313.jpg" alt=""></a></li>
+			  <li><a href="#"><img src="images/33.jpg" alt=""></a></li>
+			</ul>   
+				<div class="clearfix"></div>
+		  </div>
+	 </div>
+	<?php include_once('includes/footer.php');?>
+</div>
+<!---->
+
+<!---->
+</body>
+</html>
